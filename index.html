@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>効果音素材サイト</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>効果音素材サイト</h1>
+        <p>スマートスピーカーや音声アシスタント向けの素材を提供します。</p>
+    </header>
+
+    <section class="category" id="wake-word">
+        <h2>ウェイクワード検出時</h2>
+        <div class="audio-container">
+            <div class="audio-controls">
+                <button class="play-button" onclick="playAudio('sounds/wake-word/dummy_audio1.wav')">再生</button>
+                <p class="audio-title">Wake Word 1</p>
+                <a href="sounds/wake-word/dummy_audio1.wav" download><button class="download-button">ダウンロード</button></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="category" id="recognition">
+        <h2>音声認識完了後</h2>
+        <div class="audio-container">
+            <div class="audio-controls">
+                <button class="play-button" onclick="playAudio('sounds/recognition/dummy_audio2.wav')">再生</button>
+                <p class="audio-title">Recognition 1</p>
+                <a href="sounds/recognition/dummy_audio2.wav" download><button class="download-button">ダウンロード</button></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="category" id="startup">
+        <h2>システム起動時</h2>
+        <div class="audio-container">
+            <div class="audio-controls">
+                <button class="play-button" onclick="playAudio('sounds/startup/dummy_audio3.wav')">再生</button>
+                <p class="audio-title">Startup 1</p>
+                <a href="sounds/startup/dummy_audio3.wav" download><button class="download-button">ダウンロード</button></a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 効果音素材サイト</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
